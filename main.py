@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 
 def generate_population_dictionary_from_csv(filename):
   """
-  Generate population diction from csv data
+  Generate population dictionary from csv data
 
-  Return a dictionary follow this structure:
+  Return a dictionary following this structure:
   {
     "Africa": { population: [100, 200, 300], years: [1990, 2000, 2010]},
     "Asia": { population: [100, 200, 300], years: [1990, 2000, 2010]}
@@ -52,5 +52,4 @@ filename = 'data.csv'
 # Display internet population in a plot
 population_per_continent = generate_population_dictionary_from_csv(filename)
 generate_population_plots_from_dictionary(population_per_continent)
-
 
